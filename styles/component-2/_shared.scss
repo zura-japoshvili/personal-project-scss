@@ -1,0 +1,60 @@
+.component-2{
+    .left{
+        width: 550px;
+        height: 524px;
+        background-color: #DBDBDB;
+        div{
+            float: right;
+            height: inherit;
+            width: 350px;
+            background-color: #898989;
+        }
+    }
+    .right{
+        
+        padding: 43px 0 0 48px;
+        h4{
+            letter-spacing: $montserrat-spacing;
+            color: #222222;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 43px;
+        }
+        h6{
+            font-family: 'Open Sans', sans-serif;
+            color: #222222;
+            font-weight: 300;
+            line-height: 30px;
+            text-decoration: underline solid #EAEAEA;
+            text-underline-offset: 5.6px;
+            font-size: 20px;
+            margin-bottom: 31px;
+        }
+        div{
+            justify-content: space-between;
+            width: 595px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            color: #222222;
+            margin-bottom: 30px;
+            p:nth-child(1){
+                width: 253px;
+                line-height: 20px;
+            }
+            p:nth-child(2){
+                width: 300px;
+                line-height: 18px;
+            }
+        }
+        & > p{
+            font-family: 'Open Sans', sans-serif;
+            line-height: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #222222;
+            width: 530px;
+        }
+    }
+}

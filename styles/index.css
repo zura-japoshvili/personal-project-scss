@@ -74,9 +74,10 @@ table {
 
 .component-1 {
   font-family: "Montserrat", sans-serif;
+  letter-spacing: -0.2px;
   background-color: #EEEEEE;
 }
-.component-1 .content {
+.component-1 .top .content {
   background-color: #ED1C24;
   height: 422px;
   flex-direction: column;
@@ -84,7 +85,7 @@ table {
   position: relative;
   padding: 0 35px 0 34px;
 }
-.component-1 .content img {
+.component-1 .top .content img {
   width: 224px;
   height: 71px;
   margin-bottom: 20px;
@@ -92,7 +93,7 @@ table {
   left: 0;
   top: 25px;
 }
-.component-1 .content p {
+.component-1 .top .content p {
   color: #ffffff;
   font-size: 10px;
   background-color: #111111;
@@ -101,33 +102,33 @@ table {
   margin-bottom: 3px;
   margin-top: 118px;
 }
-.component-1 .content h4 {
+.component-1 .top .content h4 {
   letter-spacing: -0.4px;
   color: #ffffff;
   font-size: 26px;
   font-weight: bold;
   margin-bottom: 13px;
 }
-.component-1 .content h4 span {
+.component-1 .top .content h4 span {
   font-size: 22px;
   letter-spacing: inherit;
 }
-.component-1 .content h6 {
+.component-1 .top .content h6 {
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 20px;
   padding: 17px 0 20px 0;
-  border: solid #FFFFFF;
+  border: solid #F48E8F;
   border-width: 1px 0 1px 0;
   margin-bottom: 17px;
 }
-.component-1 .content h5 {
+.component-1 .top .content h5 {
   font-size: 18px;
   color: #ffffff;
 }
-.component-1 .content h5 i {
+.component-1 .top .content h5 i {
   color: #ed1c23;
   background-color: #111111;
   padding: 1px 5px;
@@ -135,26 +136,135 @@ table {
   margin-right: 8px;
   font-size: 19px;
 }
-.component-1 .content .icon-box {
+.component-1 .top .content .icon-box {
   position: absolute;
   right: 0;
   bottom: 0;
 }
-.component-1 .content .icon-box i {
-  padding: 8px 12px 12px 10px;
-  border: 1px solid #ffffff;
-  font-size: 21px;
+.component-1 .top .content .icon-box i {
+  border: solid #F48E8F;
+  border-width: 1px 0 0 1px;
   color: #ffffff;
 }
-.component-1 .burger {
+.component-1 .top .content .icon-box i:hover {
+  color: black;
+  cursor: pointer;
+}
+.component-1 .top .content .icon-box .fa-eye {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 8px 10px 8px 10px;
+}
+.component-1 .top .content .icon-box .fa-image {
+  color: #ffffff;
+  font-size: 21px;
+  padding: 12px 10px 10px 13px;
+}
+.component-1 .top .content .icon-box .fa-location-dot {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 12px 14px 10px 13px;
+}
+.component-1 .top .burger {
   background-color: #111111;
   width: 63px;
   height: 59px;
+}
+.component-1 .bottom {
+  height: 62px;
+}
+.component-1 .bottom .gray-box {
+  float: left;
+  height: inherit;
+  background-color: #DBDBDB;
+  width: 550px;
+}
+.component-1 .bottom .black-box {
+  height: inherit;
+  background-color: #111111;
+  width: 100%;
+  justify-content: flex-end;
+}
+.component-1 .bottom .black-box .angle-box {
+  position: absolute;
+  right: 149px;
+  height: inherit;
+}
+.component-1 .bottom .black-box .angle-box i {
+  height: inherit;
+  width: 56px;
+  border: solid #707070;
+  color: #ffffff;
+  font-size: 28px;
+}
+.component-1 .bottom .black-box .angle-box i.fa-angle-left {
+  border-width: 0 1px 0 1px;
+}
+.component-1 .bottom .black-box .angle-box i.fa-angle-right {
+  border-width: 0 1px 0 0;
 }
 
 .component-1 .content {
   width: 350px;
   margin-left: 200px;
+}
+
+.component-2 .left {
+  width: 550px;
+  height: 524px;
+  background-color: #DBDBDB;
+}
+.component-2 .left div {
+  float: right;
+  height: inherit;
+  width: 350px;
+  background-color: #898989;
+}
+.component-2 .right {
+  padding: 43px 0 0 48px;
+}
+.component-2 .right h4 {
+  letter-spacing: -0.2px;
+  color: #222222;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 43px;
+}
+.component-2 .right h6 {
+  font-family: "Open Sans", sans-serif;
+  color: #222222;
+  font-weight: 300;
+  line-height: 30px;
+  text-decoration: underline solid #EAEAEA;
+  text-underline-offset: 5.6px;
+  font-size: 20px;
+  margin-bottom: 31px;
+}
+.component-2 .right div {
+  justify-content: space-between;
+  width: 595px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #222222;
+  margin-bottom: 30px;
+}
+.component-2 .right div p:nth-child(1) {
+  width: 253px;
+  line-height: 20px;
+}
+.component-2 .right div p:nth-child(2) {
+  width: 300px;
+  line-height: 18px;
+}
+.component-2 .right > p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #222222;
+  width: 530px;
 }
 
 /*# sourceMappingURL=index.css.map */
