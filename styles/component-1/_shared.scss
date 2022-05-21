@@ -1,0 +1,79 @@
+.component-1{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EEEEEE;
+    .content{
+        background-color: #ED1C24;
+        height: 422px;
+        flex-direction: column;
+        padding-top: 26px;
+        position: relative;
+        padding: 0 35px 0 34px;
+        img{
+            width: 224px;
+            height: 71px;
+            margin-bottom: 20px;
+            position: absolute;
+            left: 0;
+            top: 25px;
+        }
+        p{
+            color: $primary-font;
+            font-size: 10px;
+            background-color: $bg-black;
+            width: 100px;
+            height: 20px;
+            margin-bottom: 3px;
+            margin-top: 118px;
+        }
+        h4{
+            letter-spacing: -0.4px;
+            color: $primary-font;
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 13px;
+            span{
+                font-size: 22px;
+                letter-spacing: inherit;
+            }
+        }
+        h6{
+            color: $primary-font;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 20px;
+            padding: 17px 0 20px 0;
+            border: solid #FFFFFF;
+            border-width: 1px 0 1px 0;
+            margin-bottom: 17px;
+        }
+        h5{
+            font-size: 18px;
+            color: $primary-font;
+            i{  
+                color: #ed1c23;
+                background-color: $bg-black;
+                padding: 1px 5px;
+                border-radius: 50%;
+                margin-right: 8px;
+                font-size: 19px;
+            }
+        }
+        .icon-box{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            i{
+                padding: 8px 12px 12px 10px;
+                border: 1px solid $primary-font;
+                font-size: 21px;
+                color: $primary-font;
+            }
+        }
+    }
+    .burger{
+        background-color: $bg-black;
+        width: 63px;
+        height: 59px;
+    }
+}

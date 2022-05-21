@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-center {
+  display: flex;
+  justify-content: center;
+}
+
+.v-center {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component-1 {
+  font-family: "Montserrat", sans-serif;
+  background-color: #EEEEEE;
+}
+.component-1 .content {
+  background-color: #ED1C24;
+  height: 422px;
+  flex-direction: column;
+  padding-top: 26px;
+  position: relative;
+  padding: 0 35px 0 34px;
+}
+.component-1 .content img {
+  width: 224px;
+  height: 71px;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 0;
+  top: 25px;
+}
+.component-1 .content p {
+  color: #ffffff;
+  font-size: 10px;
+  background-color: #111111;
+  width: 100px;
+  height: 20px;
+  margin-bottom: 3px;
+  margin-top: 118px;
+}
+.component-1 .content h4 {
+  letter-spacing: -0.4px;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+.component-1 .content h4 span {
+  font-size: 22px;
+  letter-spacing: inherit;
+}
+.component-1 .content h6 {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 17px 0 20px 0;
+  border: solid #FFFFFF;
+  border-width: 1px 0 1px 0;
+  margin-bottom: 17px;
+}
+.component-1 .content h5 {
+  font-size: 18px;
+  color: #ffffff;
+}
+.component-1 .content h5 i {
+  color: #ed1c23;
+  background-color: #111111;
+  padding: 1px 5px;
+  border-radius: 50%;
+  margin-right: 8px;
+  font-size: 19px;
+}
+.component-1 .content .icon-box {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.component-1 .content .icon-box i {
+  padding: 8px 12px 12px 10px;
+  border: 1px solid #ffffff;
+  font-size: 21px;
+  color: #ffffff;
+}
+.component-1 .burger {
+  background-color: #111111;
+  width: 63px;
+  height: 59px;
+}
+
+.component-1 .content {
+  width: 350px;
+  margin-left: 200px;
+}
+
+/*# sourceMappingURL=index.css.map */

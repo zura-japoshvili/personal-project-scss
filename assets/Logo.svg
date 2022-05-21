@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="224.25" height="72.1" viewBox="0 0 224.25 72.1">
+  <g id="Logo" transform="translate(-202 -26)">
+    <text id="E" transform="translate(202 28.1)" fill="#fff" font-size="32.208" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.1em"><tspan x="42.251" y="31">E</tspan></text>
+    <text id="EXHIBITION_YOUR_LOGO_HERE_" data-name="EXHIBITION
+YOUR LOGO HERE
+
+" transform="translate(285.25 28.856)" fill="#fff" font-size="18" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="17">EXHIBITION</tspan></text>
+    <g id="Square" transform="translate(233.06 26)" fill="rgba(172,172,172,0)" stroke="#fff" stroke-linejoin="round" stroke-width="3">
+      <rect width="44.86" height="44.86" stroke="none"/>
+      <rect x="1.5" y="1.5" width="41.86" height="41.86" fill="none"/>
+    </g>
+  </g>
+</svg>
