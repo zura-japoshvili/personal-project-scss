@@ -4,7 +4,7 @@
     background-color: #EEEEEE;
     .top{
         .content{
-            background-color: #ED1C24;
+            background-color: $bg-red;
             height: 422px;
             flex-direction: column;
             position: relative;
@@ -52,7 +52,7 @@
                 font-size: 18px;
                 color: $primary-font;
                 i{  
-                    color: #ed1c23;
+                    color: $bg-red;
                     background-color: $bg-black;
                     padding: 1px 5px;
                     border-radius: 50%;

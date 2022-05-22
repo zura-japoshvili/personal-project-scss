@@ -128,7 +128,7 @@ table {
   color: #ffffff;
 }
 .component-1 .top .content h5 i {
-  color: #ed1c23;
+  color: #ED1C24;
   background-color: #111111;
   padding: 1px 5px;
   border-radius: 50%;
@@ -204,9 +204,11 @@ table {
 }
 
 @media screen and (min-width: 1025px) {
+  .component-1 .top {
+    margin-left: 200px;
+  }
   .component-1 .top .content {
     width: 350px;
-    margin-left: 180px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -316,6 +318,9 @@ table {
   .component-2 .right {
     padding: 43px 0 0 48px;
   }
+  .component-2 .right h6 {
+    width: 578px;
+  }
   .component-2 .right > p {
     width: 530px;
   }
@@ -352,6 +357,98 @@ table {
   .component-2 .right p {
     width: 84%;
   }
+}
+.component-3 {
+  background-color: #111111;
+  padding-top: 48px;
+  padding-bottom: 60px;
+}
+.component-3 .main-pic {
+  margin-top: 5px;
+  margin-left: 200px;
+  margin-right: 29px;
+  width: 621px;
+  height: 408px;
+  background-color: #ffffff;
+}
+.component-3 .gallery h4 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 38px;
+}
+.component-3 .gallery .gallery-cont {
+  width: 355px;
+  height: 345px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+.component-3 .gallery .gallery-cont .img-item {
+  background-color: #ffffff;
+  width: 107px;
+  height: 100px;
+}
+.component-3 .gallery .gallery-cont .img-item:hover {
+  border: 7px solid #FF4242;
+}
+
+.component-4 {
+  height: 439px;
+  width: 100%;
+  background: url(../assets/map-background.png);
+}
+.component-4 div {
+  flex-direction: column;
+  background-color: #ED1C24;
+  width: 349px;
+  height: inherit;
+  margin-left: 200px;
+  padding: 0 55px;
+}
+.component-4 div h4 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 65px;
+  margin-bottom: 20px;
+}
+.component-4 div .location-icon {
+  padding: 6px 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+}
+.component-4 div hr {
+  margin-top: 16px;
+  background-color: #F48E8F;
+  width: 100%;
+  height: 1px;
+  border: none;
+  margin-bottom: 23px;
+}
+.component-4 div .location-p {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}
+.component-4 div .direction {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+.component-4 div div {
+  display: flex;
+  flex-direction: row;
+}
+.component-4 div div img {
+  width: 25px;
+  height: 25px;
 }
 
 /*# sourceMappingURL=index.css.map */

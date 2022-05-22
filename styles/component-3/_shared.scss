@@ -1,0 +1,39 @@
+.component-3{
+    background-color: $bg-black;
+    padding-top: 48px;
+    padding-bottom: 60px;
+    .main-pic{
+        margin-top: 5px;
+        margin-left: 200px;
+        margin-right: 29px;
+        width: 621px;
+        height: 408px;
+        background-color: $bg-white;
+    }
+    .gallery{
+        h4{
+            color: $primary-font;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 38px;
+        }
+        .gallery-cont{
+            width: 355px;
+            height: 345px;
+            display: flex;
+            justify-content: space-between;
+            align-content: space-between;
+            flex-wrap: wrap;
+            .img-item{
+                background-color: $bg-white;
+                width: 107px;
+                height: 100px;
+                &:hover{
+                    border: 7px solid #FF4242;
+                }
+            }
+        }
+    }
+
+}
