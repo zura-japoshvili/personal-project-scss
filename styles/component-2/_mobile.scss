@@ -1,0 +1,24 @@
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .component-2{
+        .right{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            h4{
+                margin-top: 40px;
+                font-size: 24px;
+            }
+            h6{
+                width: 84%;
+                font-size: 18px;
+            }
+            div{
+                flex-direction: column;
+                width: 84%;
+            }
+            p{
+                width: 84%;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .component-2{
+        .left{
+            display: none;
+        }
+        .right{
+            padding: 42px 0 0 89px;
+            & > p{
+                width: 589px;
+            }
+        }
+    }
+}

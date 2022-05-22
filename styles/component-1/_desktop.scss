@@ -1,6 +1,10 @@
-.component-1{
-    .content{
-        width: 350px;
-        margin-left: 200px;
+@media screen and (min-width: 1025px) {
+    .component-1{
+        .top{
+            .content{
+                width: 350px;
+                margin-left: 180px;
+            }
+        }
     }
 }

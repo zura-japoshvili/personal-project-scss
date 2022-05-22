@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .component-1{
+        .top{
+            .content{
+                margin-left: 42px;
+                width: 344px;
+            }
+            .burger{
+                background-color: $bg-black;
+                width: 63px;
+                height: 59px;
+            }
+        }
+        .bottom{
+            height: 62px;
+            .gray-box{
+                width: 42px;
+            }
+            .black-box{
+                .angle-box{
+                    right: 40px;
+                }
+            }
+        }
+    }
+}

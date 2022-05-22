@@ -1,18 +1,5 @@
 .component-2{
-    .left{
-        width: 550px;
-        height: 524px;
-        background-color: #DBDBDB;
-        div{
-            float: right;
-            height: inherit;
-            width: 350px;
-            background-color: #898989;
-        }
-    }
     .right{
-        
-        padding: 43px 0 0 48px;
         h4{
             letter-spacing: $montserrat-spacing;
             color: #222222;
@@ -54,7 +41,6 @@
             font-size: 14px;
             font-weight: 300;
             color: #222222;
-            width: 530px;
         }
     }
 }

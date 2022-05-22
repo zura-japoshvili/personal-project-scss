@@ -1,0 +1,21 @@
+@media screen and (min-width: 1025px) {
+    .component-2{
+        .left{
+            width: 550px;
+            height: 524px;
+            background-color: #DBDBDB;
+            div{
+                float: right;
+                height: inherit;
+                width: 350px;
+                background-color: #898989;
+            }
+        }
+        .right{
+            padding: 43px 0 0 48px;
+            & > p{
+                width: 530px;
+            }
+        }
+    }
+}

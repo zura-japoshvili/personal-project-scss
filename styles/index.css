@@ -81,7 +81,6 @@ table {
   background-color: #ED1C24;
   height: 422px;
   flex-direction: column;
-  padding-top: 26px;
   position: relative;
   padding: 0 35px 0 34px;
 }
@@ -204,24 +203,60 @@ table {
   border-width: 0 1px 0 0;
 }
 
-.component-1 .content {
-  width: 350px;
-  margin-left: 200px;
+@media screen and (min-width: 1025px) {
+  .component-1 .top .content {
+    width: 350px;
+    margin-left: 180px;
+  }
 }
-
-.component-2 .left {
-  width: 550px;
-  height: 524px;
-  background-color: #DBDBDB;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .component-1 .top .content {
+    margin-left: 42px;
+    width: 344px;
+  }
+  .component-1 .top .burger {
+    background-color: #111111;
+    width: 63px;
+    height: 59px;
+  }
+  .component-1 .bottom {
+    height: 62px;
+  }
+  .component-1 .bottom .gray-box {
+    width: 42px;
+  }
+  .component-1 .bottom .black-box .angle-box {
+    right: 40px;
+  }
 }
-.component-2 .left div {
-  float: right;
-  height: inherit;
-  width: 350px;
-  background-color: #898989;
-}
-.component-2 .right {
-  padding: 43px 0 0 48px;
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .component-1 .top {
+    display: flex;
+    justify-content: center;
+  }
+  .component-1 .top .content {
+    z-index: 1;
+  }
+  .component-1 .top .content .icon-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .component-1 .top .content .icon-box i.fa-location-dot {
+    border-width: 1px 1px 0 1px;
+  }
+  .component-1 .top .burger {
+    position: relative;
+    z-index: 2;
+    margin-left: -63px;
+    margin-top: 13.5px;
+  }
+  .component-1 .bottom .gray-box {
+    display: none;
+  }
+  .component-1 .bottom .black-box .angle-box {
+    display: none;
+  }
 }
 .component-2 .right h4 {
   letter-spacing: -0.2px;
@@ -264,7 +299,59 @@ table {
   font-size: 14px;
   font-weight: 300;
   color: #222222;
-  width: 530px;
+}
+
+@media screen and (min-width: 1025px) {
+  .component-2 .left {
+    width: 550px;
+    height: 524px;
+    background-color: #DBDBDB;
+  }
+  .component-2 .left div {
+    float: right;
+    height: inherit;
+    width: 350px;
+    background-color: #898989;
+  }
+  .component-2 .right {
+    padding: 43px 0 0 48px;
+  }
+  .component-2 .right > p {
+    width: 530px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .component-2 .left {
+    display: none;
+  }
+  .component-2 .right {
+    padding: 42px 0 0 89px;
+  }
+  .component-2 .right > p {
+    width: 589px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .component-2 .right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .component-2 .right h4 {
+    margin-top: 40px;
+    font-size: 24px;
+  }
+  .component-2 .right h6 {
+    width: 84%;
+    font-size: 18px;
+  }
+  .component-2 .right div {
+    flex-direction: column;
+    width: 84%;
+  }
+  .component-2 .right p {
+    width: 84%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
