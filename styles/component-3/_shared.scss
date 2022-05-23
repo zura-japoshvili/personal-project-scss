@@ -1,14 +1,9 @@
 .component-3{
-    display: none;
     background-color: $bg-black;
     padding-top: 48px;
     padding-bottom: 60px;
+    position: relative;
     .main-pic{
-        margin-top: 5px;
-        margin-left: 200px;
-        margin-right: 29px;
-        width: 621px;
-        height: 408px;
         background-color: $bg-white;
     }
     .gallery{
@@ -18,14 +13,10 @@
             font-weight: bold;
             font-family: 'Montserrat', sans-serif;
             margin-bottom: 38px;
+            letter-spacing: $montserrat-spacing;
         }
         .gallery-cont{
-            width: 355px;
-            height: 345px;
             display: flex;
-            justify-content: space-between;
-            align-content: space-between;
-            flex-wrap: wrap;
             .img-item{
                 background-color: $bg-white;
                 width: 107px;

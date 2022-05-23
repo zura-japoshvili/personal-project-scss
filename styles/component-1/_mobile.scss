@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 767px){
+@media screen and (min-width: $min-bp-mobile) and (max-width: $max-bp-mobile){
     .component-1{
         .top{
             margin-left: 25px;

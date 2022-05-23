@@ -1,0 +1,24 @@
+@media screen and (min-width: $min-bp-tablet) and (max-width: $max-bp-tablet){
+    .component-3{
+        flex-direction: column;
+        .main-pic{
+            width: 591px;
+            height: 295px;
+            margin: 50px 0 25px 90px;
+        }
+        .gallery{
+            margin-left: 90px;
+            h4{
+                position: absolute;
+                top: 45px;
+            }
+            .gallery-cont{
+                width: 591px;
+                justify-content: space-between;
+                div:nth-child(even){
+                    display: none;
+                }
+            }
+        }
+    }
+}

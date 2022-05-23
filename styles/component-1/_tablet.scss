@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: $min-bp-tablet) and (max-width: $max-bp-tablet){
     .component-1{
         .top{
             .content{

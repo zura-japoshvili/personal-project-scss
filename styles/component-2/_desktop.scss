@@ -1,4 +1,4 @@
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: $min-bp-desktop) {
     .component-2{
         .left{
             width: 550px;

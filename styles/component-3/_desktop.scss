@@ -1,0 +1,18 @@
+@media screen and (min-width: $min-bp-desktop) {
+    .component-3{
+        .main-pic{
+            width: 621px;
+            height: 408px;
+            margin: 5px 29px 0 200px;
+        }
+        .gallery{
+            width: 355px;
+            height: 345px;
+            .gallery-cont{
+                justify-content: space-between;
+                align-content: space-between;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
