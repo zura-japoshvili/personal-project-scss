@@ -2,6 +2,9 @@
     .component-4{
         & > div{
             margin-left: 200px;
+            @media screen and (max-width: 1240px){
+                margin-left: 80px;
+            }
         }
     }
 }
