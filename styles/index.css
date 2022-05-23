@@ -228,16 +228,29 @@ table {
     width: 42px;
   }
   .component-1 .bottom .black-box .angle-box {
-    right: 40px;
+    right: 20px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .component-1 .top {
-    display: flex;
-    justify-content: center;
+    margin-left: 25px;
   }
   .component-1 .top .content {
+    width: 271px;
     z-index: 1;
+  }
+  .component-1 .top .content img {
+    height: 60px;
+    width: 180px;
+  }
+  .component-1 .top .content h4 {
+    margin-bottom: 15px;
+  }
+  .component-1 .top .content h6 {
+    font-size: 14px;
+  }
+  .component-1 .top .content h5 {
+    font-size: 16px;
   }
   .component-1 .top .content .icon-box {
     display: flex;
@@ -332,33 +345,48 @@ table {
   .component-2 .right {
     padding: 42px 0 0 89px;
   }
+  .component-2 .right h6 {
+    width: 595px;
+  }
   .component-2 .right > p {
     width: 589px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .component-2 .right {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
   .component-2 .right h4 {
-    margin-top: 40px;
+    margin: 40px 0 25px 98px;
     font-size: 24px;
   }
   .component-2 .right h6 {
-    width: 84%;
+    width: 89.4%;
     font-size: 18px;
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 23px;
   }
   .component-2 .right div {
     flex-direction: column;
-    width: 84%;
+    width: 88%;
+    text-align: center;
+    margin-left: 28px;
+    font-size: 14px;
+    margin-bottom: 19px;
   }
-  .component-2 .right p {
-    width: 84%;
+  .component-2 .right div p:nth-child(1) {
+    width: 100%;
+    margin-bottom: 14px;
+  }
+  .component-2 .right div p:nth-child(2) {
+    width: 100%;
+  }
+  .component-2 .right > p {
+    margin-left: 28px;
+    width: 88%;
+    text-align: center;
   }
 }
 .component-3 {
+  display: none;
   background-color: #111111;
   padding-top: 48px;
   padding-bottom: 60px;
@@ -396,11 +424,12 @@ table {
 }
 
 .component-4 {
+  display: none;
   height: 439px;
   width: 100%;
   background: url(../assets/map-background.png);
 }
-.component-4 div {
+.component-4 > div {
   flex-direction: column;
   background-color: #ED1C24;
   width: 349px;
@@ -408,7 +437,7 @@ table {
   margin-left: 200px;
   padding: 0 55px;
 }
-.component-4 div h4 {
+.component-4 > div h4 {
   color: #ffffff;
   font-size: 30px;
   font-weight: bold;
@@ -416,13 +445,13 @@ table {
   margin-top: 65px;
   margin-bottom: 20px;
 }
-.component-4 div .location-icon {
+.component-4 > div .location-icon {
   padding: 6px 10px;
   border-radius: 50%;
   background-color: #ffffff;
   margin-bottom: 15px;
 }
-.component-4 div hr {
+.component-4 > div hr {
   margin-top: 16px;
   background-color: #F48E8F;
   width: 100%;
@@ -430,25 +459,43 @@ table {
   border: none;
   margin-bottom: 23px;
 }
-.component-4 div .location-p {
+.component-4 > div .location-p {
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 20px;
 }
-.component-4 div .direction {
+.component-4 > div .direction {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #ffffff;
+  margin-bottom: 25px;
 }
-.component-4 div div {
-  display: flex;
-  flex-direction: row;
+.component-4 > div div {
+  width: inherit;
 }
-.component-4 div div img {
-  width: 25px;
-  height: 25px;
+.component-4 > div div img {
+  box-sizing: content-box;
+  border: solid #F48E8F;
+}
+.component-4 > div div img:nth-child(1) {
+  width: 14px;
+  height: 24px;
+  padding: 8px 14px 11px 16px;
+  border-width: 1px;
+}
+.component-4 > div div img:nth-child(2) {
+  width: 26px;
+  height: 12px;
+  padding: 16px 9px 15px 8px;
+  border-width: 1px 0;
+}
+.component-4 > div div img:nth-child(3) {
+  width: 16px;
+  height: 26px;
+  padding: 7.5px 14px 10px 13px;
+  border-width: 1px;
 }
 
 /*# sourceMappingURL=index.css.map */

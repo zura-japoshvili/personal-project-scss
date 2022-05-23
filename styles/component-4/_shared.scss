@@ -1,8 +1,9 @@
 .component-4{
+    display: none;
     height: 439px;
     width: 100%;
     background: url(../assets/map-background.png);
-    div{
+    & > div{
         flex-direction: column;
         background-color: $bg-red;
         width: 349px;
@@ -42,13 +43,31 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 14px;
             color: $primary-font;
+            margin-bottom: 25px;
         }
         div{
-            display: flex;
-            flex-direction: row;
+            width: inherit;
             img{
-                width: 25px;
-                height: 25px;
+                box-sizing: content-box;
+                border: solid $primary-border;
+                &:nth-child(1){
+                    width: 14px;
+                    height: 24px;
+                    padding: 8px 14px 11px 16px;
+                    border-width: 1px;
+                }
+                &:nth-child(2){
+                    width: 26px;
+                    height: 12px;
+                    padding: 16px 9px 15px 8px;
+                    border-width: 1px 0;
+                }
+                &:nth-child(3){
+                    width: 16px;
+                    height: 26px;
+                    padding: 7.5px 14px 10px 13px;
+                    border-width: 1px;
+                }
             }
         }
     }
