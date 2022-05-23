@@ -196,6 +196,9 @@ table {
   color: #ffffff;
   font-size: 28px;
 }
+.component-1 .bottom .black-box .angle-box i:hover {
+  color: #ED1C24;
+}
 .component-1 .bottom .black-box .angle-box i.fa-angle-left {
   border-width: 0 1px 0 1px;
 }
@@ -390,7 +393,7 @@ table {
 .component-3 {
   background-color: #111111;
   padding-top: 48px;
-  padding-bottom: 60px;
+  padding-bottom: 55px;
   position: relative;
 }
 .component-3 .main-pic {
@@ -481,7 +484,6 @@ table {
   }
 }
 .component-4 {
-  display: none;
   height: 439px;
   width: 100%;
   background: url(../assets/map-background.png);
@@ -491,7 +493,6 @@ table {
   background-color: #ED1C24;
   width: 349px;
   height: inherit;
-  margin-left: 200px;
   padding: 0 55px;
 }
 .component-4 > div h4 {
@@ -553,6 +554,21 @@ table {
   height: 26px;
   padding: 7.5px 14px 10px 13px;
   border-width: 1px;
+}
+
+@media screen and (min-width: 1025px) {
+  .component-4 > div {
+    margin-left: 200px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .component-4 > div {
+    margin-left: 40px;
+  }
+  .component-4 > div h4 {
+    margin-top: 55px;
+    margin-bottom: 30px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

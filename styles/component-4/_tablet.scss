@@ -1,0 +1,11 @@
+@media screen and (min-width: $min-bp-tablet) and (max-width: $max-bp-tablet){
+    .component-4{
+        & > div{
+            margin-left: 40px;
+            h4{
+                margin-top: 55px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

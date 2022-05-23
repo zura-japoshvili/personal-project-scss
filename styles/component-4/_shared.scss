@@ -1,5 +1,4 @@
 .component-4{
-    display: none;
     height: 439px;
     width: 100%;
     background: url(../assets/map-background.png);
@@ -8,7 +7,6 @@
         background-color: $bg-red;
         width: 349px;
         height: inherit;
-        margin-left: 200px;
         padding: 0 55px;
         h4{
             color: $primary-font;

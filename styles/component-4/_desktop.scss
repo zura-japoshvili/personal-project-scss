@@ -1,0 +1,7 @@
+@media screen and (min-width: $min-bp-desktop) {
+    .component-4{
+        & > div{
+            margin-left: 200px;
+        }
+    }
+}

@@ -120,6 +120,9 @@
                     border: solid #707070;
                     color: $primary-font;
                     font-size: 28px;
+                    &:hover{
+                        color: #ED1C24;
+                    }
                     &.fa-angle-left{
                         border-width: 0 1px 0 1px;
                     }
