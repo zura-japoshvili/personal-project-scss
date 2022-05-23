@@ -1,0 +1,18 @@
+@media screen and (min-width: $min-bp-tablet) and (max-width: $max-bp-tablet){
+    .component-5{
+        flex-direction: column;
+        img{
+            margin-top: 17px;
+            margin-left: 57px;
+        }
+        ul{
+            position: absolute;
+            top: 96px;
+            left: 90px;
+        }
+        i{
+            top: 57px;
+            right: 70px;
+        }
+    }
+}

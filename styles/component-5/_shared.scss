@@ -1,0 +1,33 @@
+.component-5{
+    height: 163px;
+    background-color: $bg-black;
+    position: relative;
+    img{
+        height: 100px;
+        width: 220px;
+    }
+    ul{
+        li{
+            color: $primary-font;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            margin-right: 5px;
+            cursor: pointer;
+            &:hover{
+                text-decoration: underline solid #ED1C24;
+                text-underline-offset: 5.6px;
+            }
+        }
+    }
+    i{
+        position: absolute;
+        font-size: 30px;
+        color: $primary-font;
+        border: 1px solid #8b8b8b;
+        padding: 4px 7px;
+        cursor: pointer;
+        &:hover{
+            color: #ED1C24;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@media screen and (min-width: $min-bp-mobile) and (max-width: $max-bp-mobile){
+    .component-5{
+        img{
+            height: 90px;
+            width: 192px;
+            margin-top: 18px;
+        }
+        i{
+            top: 28px;
+            right: 7px;
+        }
+        ul{
+            position: absolute;
+            top: 107px;
+            left: 25px;
+            font-size: 12px;
+        }
+    }
+}

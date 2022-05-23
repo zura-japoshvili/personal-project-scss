@@ -4,11 +4,15 @@
             width: 621px;
             height: 408px;
             margin: 5px 29px 0 200px;
+            @media screen and (max-width: 1240px){
+                margin-left: 80px;
+            }
         }
         .gallery{
             width: 355px;
-            height: 345px;
+            height: 350px;
             .gallery-cont{
+                height: 345px;
                 justify-content: space-between;
                 align-content: space-between;
                 flex-wrap: wrap;

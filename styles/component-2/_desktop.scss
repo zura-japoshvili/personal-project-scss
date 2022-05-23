@@ -9,6 +9,10 @@
                 height: inherit;
                 width: 350px;
                 background-color: #898989;
+                @media screen and (max-width: 1240px){
+                    margin-left: 80px;
+                    float: unset;
+                }
             }
         }
         .right{
