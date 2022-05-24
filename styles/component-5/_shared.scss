@@ -14,7 +14,7 @@
             margin-right: 5px;
             cursor: pointer;
             &:hover{
-                text-decoration: underline solid #ED1C24;
+                text-decoration: underline solid $primary-hover;
                 text-underline-offset: 5.6px;
             }
         }
@@ -23,11 +23,11 @@
         position: absolute;
         font-size: 30px;
         color: $primary-font;
-        border: 1px solid #8b8b8b;
+        border: 1px solid $secondary-border;
         padding: 4px 7px;
         cursor: pointer;
         &:hover{
-            color: #ED1C24;
+            color: $primary-hover;
         }
     }
 }

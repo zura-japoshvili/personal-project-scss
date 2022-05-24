@@ -13,7 +13,7 @@
             color: #222222;
             font-weight: 300;
             line-height: 30px;
-            text-decoration: underline solid #EAEAEA;
+            text-decoration: underline solid $text-underline;
             text-underline-offset: 5.6px;
             font-size: 20px;
             margin-bottom: 31px;
@@ -24,7 +24,7 @@
             font-family: 'Open Sans', sans-serif;
             font-size: 14px;
             font-weight: 300;
-            color: #222222;
+            color: $secondary-font;
             margin-bottom: 30px;
             p:nth-child(1){
                 width: 253px;
@@ -40,7 +40,7 @@
             line-height: 20px;
             font-size: 14px;
             font-weight: 300;
-            color: #222222;
+            color: $secondary-font;
         }
     }
 }

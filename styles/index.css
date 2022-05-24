@@ -258,6 +258,7 @@ table {
   }
   .component-1 .top .content h6 {
     font-size: 14px;
+    letter-spacing: 0.1px;
   }
   .component-1 .top .content h5 {
     font-size: 16px;
@@ -431,7 +432,7 @@ table {
   height: 100px;
 }
 .component-3 .gallery .gallery-cont .img-item:hover {
-  border: 7px solid #FF4242;
+  border: 7px solid #ED1C24;
 }
 
 @media screen and (min-width: 1025px) {
@@ -652,7 +653,7 @@ table {
   position: absolute;
   font-size: 30px;
   color: #ffffff;
-  border: 1px solid #8b8b8b;
+  border: 1px solid #707070;
   padding: 4px 7px;
   cursor: pointer;
 }
@@ -704,8 +705,10 @@ table {
   }
   .component-5 ul {
     position: absolute;
-    top: 107px;
-    left: 25px;
+    top: 109px;
+    left: 26px;
+  }
+  .component-5 ul li {
     font-size: 12px;
   }
 }
